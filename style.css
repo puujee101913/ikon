@@ -1,0 +1,523 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    width: 100%;
+}
+
+.header__top {
+    width: 100%;
+    border-bottom: 1px solid #ccc;
+    padding: 5px 0;
+    font-size: 14px;
+}
+
+.flex-wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.flex-wrap #cal {
+    color: orangered;
+    margin-right: 5px;
+}
+
+.flex-wrap .exchange {
+    margin-left: 5px;
+}
+
+.container {
+    max-width: 1150px;
+    margin: auto;
+}
+
+.header__main {
+    width: 100%;
+}
+
+.header__main .bg-image {
+    background-image: url(https://content.ikon.mn/ikon/images/silhouette.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.header__nav {
+    width: 100%;
+    background-color: #454d62;
+    color: white;
+}
+
+.header__nav .navigation {
+    width: 90%;
+    justify-content: flex-start;
+    list-style: none;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+.header__nav .navigation li {
+    padding: 10px;
+    border-right: 1px solid #393f50;
+    border-left: 1px solid #545b6e;
+}
+
+.header__nav .navigation li.active {
+    background-color: rgba(0,0,0,.3);
+}
+
+.header__nav .navigation li.covid {
+    color: yellow
+}
+
+.header__nav .navigation li:hover {
+    color: #dedede;
+    cursor: pointer;
+}
+
+.header__nav .search input {
+    border: 3px solid #fd3e0a;
+    padding: 3px;
+}
+
+.header__nav .search button {
+    border: 3px solid #fd3e0a;
+    color: white;
+    background-color: #fd3e0a;
+    padding: 3px;
+
+}
+
+.main {
+    width: 100%;
+    margin: 1.5rem 0;
+}
+
+.main .start {
+    gap: 1rem;
+    align-items: flex-start;
+}
+
+.main .sidebar {
+    width: 30%;
+    height: 2000px;
+    display: flex;
+    flex-direction: column;
+}
+
+.main .sidebar .newContents {
+    width: 100%;
+}
+
+.main .sidebar .newContents .block {
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.main .sidebar .column {
+    width: 100%;
+    height: 2018px;
+    display: flex;
+    flex-direction: column;
+}
+
+.main .sidebar .column .mntabs {
+    width: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 8px;
+    border-bottom: 3px solid red;
+}
+
+.main .sidebar .column .mntabs .active {
+    width: 50%;
+    height: 32px;
+    margin: 0 2px 0 0;
+    color: #dedede;
+    background-color: #454d62;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 2px;
+}
+
+.main .sidebar .column .mntabs .active:hover {
+    cursor: pointer;
+}
+
+.main .sidebar .column .mntabs .margin-right {
+    width: 50%;
+    height: 32px;
+    margin: 0 2px 0 0;
+    color: #454d62;
+    background-color: #dbe1ea;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main .sidebar .column .mntabs .margin-right:hover {
+    cursor: pointer;
+}
+
+.main .sidebar .column .Imnchome {
+    width: 100%;
+    border-right: 1px solid rgba(219,225,234,0.6);
+    padding: 0;
+    border-bottom: 2px solid #dbe1ea;
+    margin-bottom: 2px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    position: relative;
+}
+
+.main .sidebar .column .Imnchome .scrollcontent {
+    width: 100%;
+    height: 1400px;
+}
+
+.main .sidebar .column .Imnchome .scrollcontent ul {
+    width: 100%;
+}
+
+.main .sidebar .column .Imnchome .scrollcontent ul li {
+    width: 100%;
+    padding: 8px 0;
+    border-bottom: 1px dashed #dbe1ea;
+    display: grid;
+    gap: 5px;
+    grid-template-columns: 120px 1fr;
+    grid-template-rows: 100px 10px 20px;
+}
+
+.main .sidebar .column .Imnchome .scrollcontent ul li .nlimg {
+    width: 100%;
+    grid-row: 1/3;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.main .sidebar .column .Imnchome .scrollcontent ul li .count {
+    display: flex;
+    justify-content: flex-end;
+    grid-row: 3/4;
+    grid-column: 2/3;
+}
+
+.main .sidebar .column .Imnchome .scrollcontent ul li p {
+    padding-left: 10px;
+    font: 13px "Helvetica Neue",Helvetica, Tahoma,Arial,sans-serif;
+}
+
+.main .sidebar .column .Imnchome .scrollcontent ul li .count span {
+    margin: 8px;
+}
+
+.main .content {
+    width: 70%;
+}
+
+.main .content .wrapper {
+    width: 100%;
+}
+
+.main .content .wrapper .iknavigation {
+    width: 100%;
+    height: 26px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 12px;
+}
+
+.main .content .wrapper .iknavigation span {
+    padding: 0 25px;
+    font-size: 14px;
+}
+
+.main .content .wrapper .iknavigation .pdir1 {
+    padding: 3px;
+    width: 40px;
+    background-color: #fd3e0a;
+}
+
+.main .content .wrapper .iknavigation .pdir {
+    padding: 3px;
+    width: 40px;
+    background-color: #dbe1ea;
+}
+
+.main .content .wrapper .iknavigation .pdir:hover {
+    cursor: pointer;
+}
+
+.main .content .wrapper .iknavigation .pdir1:hover {
+    cursor: pointer;
+}
+
+.main .content .wrapper .ikonad {
+    width: 100%;
+    height: 100px;
+}
+
+.main .content .wrapper .ikonad .block {
+    display: flex;
+    justify-content: center;
+    margin: 0 5px;
+    width: 100%;
+    height: 100px;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.main .content .pacialnews {
+    width: 100%;
+    margin-top: 5px;
+    margin-left: 5px;
+    display: grid;
+    gap: 5px;
+    grid-template-columns: repeat(3 1fr);
+    grid-template-rows: 304px 280px;
+}
+
+.main .content .pacialnews .hides {
+    width: 100%;
+    height: 304px;
+    display: flex;
+    grid-column: 1/4;
+    justify-content: space-between;
+}
+
+.main .content .pacialnews .hides .imglink {
+    width: 505px;
+    height: 304px;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.main .content .pacialnews .hides .bstitles {
+    height: 304px;
+    width: 300px;
+    color: #ffffff;
+    background-color: black;
+}
+
+.main .content .pacialnews .hides .bstitles h1 {
+    font-size: 30px;
+    padding: 20px;
+}
+
+.main .content .pacialnews .hides .bstitles p {
+    padding: 20px 20px;
+}
+
+.main .content .pacialnews .cpnews {
+    width: 100%;
+    display: flex;
+    grid-column: 1/4;
+    grid-row: 2/3;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main .content .pacialnews .cpnews .shadow {
+    width: 32%;
+    position: relative;
+    display: block;
+}
+
+.main .content .pacialnews .cpnews .shadow .imglink {
+    width: 100%;
+    height: 280px;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.main .content .pacialnews .cpnews .shadow p {
+    position: absolute;
+    top: 195px;
+    background: url(https://content.ikon.mn/ikon/images/hsprite.png) 0px -96px repeat-x;
+    color: white;
+    padding: 8px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.main .content .pacialnews .cpnews .shadow p:hover {
+    color: #fd3e0a;
+}
+
+.main .content .hidess {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 6px 0 8px 0;
+    margin-left: 5px;
+    margin-top: 10px;
+}
+
+.main .content .hidess .shadow {
+    width: 32%;
+    position: relative;
+    display: block;
+}
+
+.main .content .hidess .shadow .imglink {
+    width: 100%;
+    height: 280px;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.main .content .hidess .shadow p {
+    position: absolute;
+    top: 195px;
+    background: url(https://content.ikon.mn/ikon/images/hsprite.png) 0px -96px repeat-x;
+    color: white;
+    padding: 8px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.main .content .hidess .shadow p:hover {
+    color: #fd3e0a;
+}
+
+.main .content .hiders {
+    width: 100%;
+    height: 240px;
+    margin-left: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-right: 5px;
+}
+
+.main .content .hiders h3 {
+    color: #fd3e0a;
+    padding-left: 6px;
+    margin-bottom: 4px;
+}
+
+.main .content .hiders .hidesss {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 6px 0 8px 0;
+    margin-left: 5px;
+    margin-top: 10px;
+}
+
+.main .content .hiders .hidesss .shadow {
+    width: 24%;
+    position: relative;
+    display: block;
+}
+
+.main .content .hiders .hidesss .shadow .imglink {
+    width: 100%;
+    height: 210px;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.main .content .hiders .hidesss .shadow p {
+    position: absolute;
+    top: 160px;
+    background: url(https://content.ikon.mn/ikon/images/hsprite.png) 0px -96px repeat-x;
+    color: white;
+    padding: 8px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.main .content .hiders .hidesss .shadow p:hover {
+    color: #fd3e0a;
+}
+
+.main .content .bx-wrapper {
+    width: 100%;
+    height: 100px;
+    margin-left: 5px;
+    margin: 20px 0;
+    padding-right: 5px;
+}
+
+.main .content .bx-wrapper .block {
+    display: flex;
+    justify-content: center;
+    margin: 0 10px;
+    width: 100%;
+    height: 100px;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.main .content .hiders .iknavigation {
+    width: 100%;
+    height: 26px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 12px;
+}
+
+.main .content .hiders .iknavigation span {
+    padding: 0 25px;
+    font-size: 14px;
+}
+
+.main .content .hiders .iknavigation .pdir1 {
+    padding: 3px;
+    width: 40px;
+    background-color: #fd3e0a;
+}
+
+.main .content .hiders .iknavigation .pdir {
+    padding: 3px;
+    width: 40px;
+    background-color: #dbe1ea;
+}
+
+.main .content .hiders .iknavigation .pdir:hover {
+    cursor: pointer;
+}
+
+.main .content .hiders .iknavigation .pdir1:hover {
+    cursor: pointer;
+}
+
+.main .content .hiders .mgl {
+    height: 22px;
+    border: 1px solid #596173;
+    color: white;
+    font-family: tahoma,Arial, sans-serif;
+    font-size: 12px;
+    line-height: 20px;
+    text-align: center;
+    background-color: #454d62;
+    text-transform: uppercase;
+    margin-left: 6px;
+}

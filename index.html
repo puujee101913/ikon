@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <header class="header">
+       <div class="header__top">
+           <div class="container">
+               <div class="flex-wrap">
+                   <div class="flex-wrap">
+                        <i id="cal" class="far fa-calendar-alt"></i>
+                        <p> 10 сарын 10, Ням</p>
+                   </div>
+                   <div class="flex-wrap">
+                        <p class="exchange">a</p>
+                        <p class="exchange">b</p>
+                   </div>
+               </div>
+           </div>
+       </div>
+       <div class="header__main">
+           <div class="container bg-image">
+               <img src="https://content.ikon.mn/ikon/images/ikon.png" alt="">
+           </div>
+       </div>
+       <div class="header__nav">
+           <div class="container">
+               <div class="flex-wrap">
+                   <ul class="navigation flex-wrap">
+                        <li class="active">Эхлэл</li>
+                        <li class="covid">Ковид-19</li>
+                        <li>Улс-төр</li>
+                        <li>Эдийн-засаг</li>
+                        <li>Нийгэм</li>
+                        <li>Эрүүл-мэнд</li>
+                        <li>Дэлхий</li>
+                        <li>Live</li>
+                        <li>Шилдэг</li>
+                        <li>Бусад</li>
+                   </ul>
+                   <div class="search flex-wrap">
+                       <input type="text">
+                       <button>
+                           <i class="fas fa-search"></i>
+                       </button>
+                   </div>
+               </div>
+           </div>
+       </div>
+   </header>
+
+   <main class="main">
+       <div class="container">
+           <div class="flex-wrap start">
+               <div class="sidebar">
+                   <div class="newContents">
+                       <div class="block" style="background-image: url(https://content.ikon.mn/raw/2021/10/25/13082/ikon.mnArtboard-2.png);"></div>
+                   </div>
+                   <div class="column">
+                       <ul class="mntabs">
+                           <li class="active">
+                               <span>a</span>
+                           </li>
+                           <li class="margin-right">b</li>
+                       </ul>
+                       <div class="Imnchome">
+                            <div class="scrollcontent">
+                                <ul class="newsList">
+                                    <li>
+                                        <div class="nlimg" style="background-image: url(https://content.ikon.mn/news/2021/11/5/0xk1ft_1111_x100.jpg);" ></div>
+                                        <p>Соёлын бүтээгдэхүүн, үйлдвэрлэлээ олон улсын зах зээлд гаргахад тулгамдаж буй асуудлуудаа хэлэлцэж байна</p> 
+                                        <div class="count">
+                                            <span>4</span>
+                                            <span>1 цаг</span>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="nlimg" style="background-image: url(https://content.ikon.mn/news/2021/11/5/jakhdp_imported_image_x100.jpg);" ></div>
+                                        <p>К.И.Косачев: Хоёр улсын худалдааны эргэлт бага, тэнцвэргүй байгаад харамсаж байна. Буцаж очоод энэ талаар ярилцах болно</p> 
+                                        <div class="count">
+                                            <span>39</span>
+                                            <span>12</span>
+                                            <span>3 цаг</span>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="nlimg" style="background-image: url(https://content.ikon.mn/news/2021/11/5/yotetg_250848464_548808313063454_2426411865430748002_n_x100.jpg);" ></div>
+                                        <p>Ойн цэвэрлэгээ хийх зөвшөөрлөөр халхавчлан нойтон мод бэлтгэж, ченжүүдэд худалдсан гэх хэргүүдийг шалгаж байна</p> 
+                                        <div class="count">
+                                            <span>60</span>
+                                            <span>5</span>
+                                            <span>4 цаг</span>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="nlimg" style="background-image: url(https://content.ikon.mn/news/2021/11/5/tyu1xz_IMG_2730_x100.jpg);" ></div>
+                                        <p>ФОТО: Монгол бахархлын өдөрт зориулж, Чингис хааны хөшөөнд хүндэтгэл үзүүлэв</p> 
+                                        <div class="count">
+                                            <span>11</span>
+                                            <span>16</span>
+                                            <span>6 цаг</span>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="nlimg" style="background-image: url(https://content.ikon.mn/news/2021/11/5/4vf1b5_IMG_5076_1__x100.jpg);" ></div>
+                                        <p>“COREX” үндэсний блокчейн, Зээлийн мэдээллийн сангийн үйлчилгээ үзүүлэгч “БҮРЭН СКОР” компаниуд хамтран ажиллана</p> 
+                                        <div class="count">
+                                            <span>184</span>
+                                            <span>6 цаг</span>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="nlimg" style="background-image: url(https://content.ikon.mn/news/2021/7/27/kf4ot0_MPA_PHOTO_2021-04749_x100.jpg);" ></div>
+                                        <p>Замын-Үүд боомтоор нэвтэрч байгаа тээврийн жолооч нарын тоо болон галт тэрэг солилцоог нэмэгдүүлэх талаар тохиролцжээ</p> 
+                                        <div class="count">
+                                            <span>45</span>
+                                            <span>5</span>
+                                            <span>7 цаг</span>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="nlimg" style="background-image: url(https://content.ikon.mn/news/2021/11/5/hy6dlw_IMG_2474_x100.jpg);" ></div>
+                                        <p>ФОТО: Төрийн есөн хөлт цагаан тугийг цэнгүүлэх ёслол боллоо</p> 
+                                        <div class="count">
+                                            <span>36</span>
+                                            <span>4</span>
+                                            <span>7 цаг</span>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="nlimg" style="background-image: url(https://content.ikon.mn/news/2021/11/5/h7y831___x100.jpg);" ></div>
+                                        <p>ХӨГЖЛИЙГ ДЭМЖСЭН ОНЦЛОХ ТӨСЛҮҮД</p> 
+                                        <div class="count">
+                                            <span>5</span>
+                                            <span>7 цаг</span>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="nlimg" style="background-image: url(https://content.ikon.mn/news/2021/3/23/flwiz4__PA_1916_x100.jpg);" ></div>
+                                        <p>Сургууль, цэцэрлэгийн спортын талбайг зориулалт бусаар ашиглахыг хориглоно</p> 
+                                        <div class="count">
+                                            <span>5</span>
+                                            <span>8</span>
+                                            <span>8 цаг</span>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="nlimg" style="background-image: url(https://content.ikon.mn/news/2020/10/16/1mb4dl_MPA_PHOTO2020-7-6814_x100.jpg);" ></div>
+                                        <p>"Даяаршлын давлагаанд ондоошиж байгаа энэ үед монголчууд бид олон зууны туршид оршин тогтнож ирсэн Монгол соёл иргэншлээ дээдлэн хөгжүүлэх учиртай"</p> 
+                                        <div class="count">
+                                            <span>120</span>
+                                            <span>12</span>
+                                            <span>8 цаг</span>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="nlimg" style="background-image: url(https://content.ikon.mn/news/2021/11/5/esldsc_ingen_x100.jpg);" ></div>
+                                        <p>Японы засгийн газар алдартай Зэн багшийн баримлыг Хятадад зээлээр өгөхөөр төлөвлөж байна</p> 
+                                        <div class="count">
+                                            <span>5</span>
+                                            <span>8</span>
+                                            <span>9 цаг</span>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="nlimg" style="background-image: url(https://content.ikon.mn/news/2021/11/5/qnnwm3__PA_2525_x100.jpg);" ></div>
+                                        <p>Барилга барилгүй нүх ухаж, хог овоолсон, хоёр жил дараалан ашиглаагүй газруудыг цэгцэлнэ</p> 
+                                        <div class="count">
+                                            <span>57</span>
+                                            <span>19</span>
+                                            <span>9 цаг</span>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="nlimg" style="background-image: url(https://content.ikon.mn/news/2021/5/13/kp5v7y_covid-vaccine-comorbidities_x100.jpg);" ></div>
+                                        <p>Цагаан ордон нэгдүгээр сарын 4-нөөс өмнө ажилтнуудаа вакцинжуулалтад хамруулахыг Америкийн компаниудад үүрэг болгов</p> 
+                                        <div class="count">
+                                            <span>7</span>
+                                            <span>3</span>
+                                            <span>9 цаг</span>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="nlimg" style="background-image: url(https://content.ikon.mn/news/2021/11/5/e0th8j_south_asia_covid_x100.jpg);" ></div>
+                                        <p>Эрдэмтэд Covid-19 өвчний эрсдэлийг нэмэгдүүлдэг ген Өмнөд Азийнханд хамгийн их байгааг илрүүлжээ</p> 
+                                        <div class="count">
+                                            <span>6</span>
+                                            <span>29</span>
+                                            <span>9 цаг</span>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="nlimg" style="background-image: url(https://content.ikon.mn/news/2021/6/23/nycl6i_MPA-PHOTO-2021-4-7846_x100.jpg);" ></div>
+                                        <p>Дархлаажуулалтын цэгүүд 20:00 цаг хүртэл ажиллана</p> 
+                                        <div class="count">
+                                            <span>9</span>
+                                            <span>3</span>
+                                            <span>9 цаг</span>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="nlimg" style="background-image: url(https://content.ikon.mn/news/2021/11/5/r751em_putin-lukashenko-krym_x100.jpg);" ></div>
+                                        <p>Путин, Лукашенко нар Орос-Беларусийн Нэгдсэн Улс байгуулахтай холбоотой хэд хэдэн гэрээнд гарын үсэг зурлаа</p> 
+                                        <div class="count">
+                                            <span>249</span>
+                                            <span>65</span>
+                                            <span>9 цаг</span>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="nlimg" style="background-image: url(https://content.ikon.mn/news/2016/12/29/5a043b_MPA_PHOTO_2016-8496_x100.jpg);" ></div>
+                                        <p>Монгол бахархлын өдөрт зориулсан 128 бөхийн барилдаан 12:00 цагт эхэлнэ</p> 
+                                        <div class="count">
+                                            <span>85</span>
+                                            <span>9</span>
+                                            <span>9 цаг</span>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="nlimg" style="background-image: url(https://content.ikon.mn/news/2021/11/5/cavvdv_dart_spacecraft_x100.jpg);" ></div>
+                                        <p>NASA дэлхийг астероидын мөргөлтөөс хамгаалах туршилтыг гүйцэтгэх гэж байна</p> 
+                                        <div class="count">
+                                            <span>13</span>
+                                            <span>5</span>
+                                            <span>10 цаг</span>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                            
+                        </div>
+                        <br>
+                        <div class="newContents">
+                            <div class="block" style="background-image: url(https://content.ikon.mn/raw/2021/10/26/13085/ikon_560x400__3_.jpg);"></div>
+                        </div>
+                    </div> 
+                </div>
+
+
+                <div class="content">
+                    <div class="wrapper">
+                        <div class="iknavigation">
+                            <span>1 цаг 4 минутын өмнө</span>
+                            <div class="pdir1"></div>
+                            <div class="pdir"></div>
+                            <div class="pdir"></div>
+                            <div class="pdir"></div>
+                            <div class="pdir"></div>
+                            <div class="pdir"></div>
+                            <div class="pdir"></div>
+                            <div class="pdir"></div>
+                            <div class="pdir"></div>
+                            <span>3 өдөр 8 цагийн өмнө</span>
+                        </div>
+                        <div class="ikonad">
+                            <div class="block" style="background-image: url(https://content.ikon.mn/raw/2021/11/1/13107/MicrosoftTeams-image__107_.png);"></div>
+                        </div>
+                    </div>
+                    <div class="pacialnews">
+                        <div class="hides">
+                            <div class="imglink" style="background-image: url(https://content.ikon.mn//news/2021/8/22/78ondq_MPA-PHOTO-166_h450.jpg);"></div>
+                            <div class=bstitles>
+                                <h1>Улаанбаатарт 783, орон нутагт 339 тохиолдол PCR-аар батлагдаж, 11 хүн нас барлаа</h1>
+                                <p>Өнөөдрийн байдлаар COVID-19 халдварын улмаас нийт 1,757 хүн эндээд байна.</p>
+                            </div>
+                        </div>
+                        <div class="cpnews">
+                            <div class="shadow">
+                                <div class="imglink" style="background-image: url(https://content.ikon.mn//news/2021/11/1/cwv0v4_IMG_9994_x220.jpg);"></div>
+                                <p>Агаар, орчны бохирдлыг бууруулах үндэсний хөтөлбөр</p>
+                            </div>
+                            <div class="shadow">
+                                <div class="imglink" style="background-image: url(https://content.ikon.mn//news/2021/11/3/1fo4u8_9e4c9b_maxresdefault_x974_x220.jpg);"></div>
+                                <p>Үе, үеийн хотын дарга нарын БИЕЛЭЭГҮЙ МӨРӨӨДӨЛ</p>
+                            </div>
+                            <div class="shadow">
+                                <div class="imglink" style="background-image: url(https://content.ikon.mn//news/2021/11/2/bh94ap_MPA_PHOTO_2016-1800_x220.jpg);"></div>
+                                <p>НҮБ-ын индэрээс Ерөнхийлөгчийн хэлсэн үг</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="hidess">
+                        <div class="shadow">
+                            <div class="imglink" style="background-image: url(https://content.ikon.mn//news/2021/11/5/4vf1b5_IMG_5076_1__x220.jpg);"></div>
+                            <p>"COREX" үндэсний блокчейн, Зээлийн мэдээллийн сангийн</p>
+                        </div>
+                        <div class="shadow">
+                            <div class="imglink" style="background-image: url(https://content.ikon.mn//news/2021/11/5/qnnwm3__PA_2525_x220.jpg);"></div>
+                            <p>Барилга барилгүй нүх ухаж, хог овоолсон хоёр жил</p>
+                        </div>
+                        <div class="shadow">
+                            <div class="imglink" style="background-image: url(https://content.ikon.mn//news/2021/11/5/tyu1xz_IMG_2730_x220.jpg);"></div>
+                            <p>ФОТО: Монгол бахархлын өдөрт зориулж, Чингис хааны</p>
+                        </div>
+                    </div>
+
+                    <div class="hiders">
+                        <h3>ОНЦЛОХ МЭДЭЭ</h3>
+                        <div class="hidesss">
+                            <div class="shadow">
+                                <div class="imglink" style="background-image: url(https://content.ikon.mn//news/2021/11/5/cavvdv_dart_spacecraft_x220.jpg);"></div>
+                                <p>NASA дэлхийг астероидын</p>
+                            </div>
+                            <div class="shadow">
+                                <div class="imglink" style="background-image: url(https://content.ikon.mn//news/2021/11/5/r751em_putin-lukashenko-krym_x220.jpg);"></div>
+                                <p>Путин, Лукашенко нар Орос-Беларусийн</p>
+                            </div>
+                            <div class="shadow">
+                                <div class="imglink" style="background-image: url(https://content.ikon.mn//news/2021/6/23/nycl6i_MPA-PHOTO-2021-4-7846_x220.jpg);"></div>
+                                <p>Дархлаажуулалтын цэгүүд 20:00 цаг хүртэл</p>
+                            </div>
+                            <div class="shadow">
+                                <div class="imglink" style="background-image: url(https://content.ikon.mn//news/2021/11/4/cgs24p_coal_power_x220.jpg);"></div>
+                                <p>СОР26: Дэлхийн 40 гаруй улс эрчим хүч</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="bx-wrapper">
+                        <div class="block" style="background-image: url(https://content.ikon.mn/raw/2021/10/25/13080/banner-1300x.gif);"></div>
+                    </div>
+
+                    <div class="hiders">
+                        <h3>КОВИД-19</h3>
+                        <div class="hidesss">
+                            <div class="shadow">
+                                <div class="imglink" style="background-image: url(https://content.ikon.mn//news/2021/11/5/cavvdv_dart_spacecraft_x220.jpg);"></div>
+                                <p>NASA дэлхийг астероидын</p>
+                            </div>
+                            <div class="shadow">
+                                <div class="imglink" style="background-image: url(https://content.ikon.mn//news/2021/11/5/r751em_putin-lukashenko-krym_x220.jpg);"></div>
+                                <p>Путин, Лукашенко нар Орос-Беларусийн</p>
+                            </div>
+                            <div class="shadow">
+                                <div class="imglink" style="background-image: url(https://content.ikon.mn//news/2021/6/23/nycl6i_MPA-PHOTO-2021-4-7846_x220.jpg);"></div>
+                                <p>Дархлаажуулалтын цэгүүд 20:00 цаг хүртэл</p>
+                            </div>
+                            <div class="shadow">
+                                <div class="imglink" style="background-image: url(https://content.ikon.mn//news/2021/11/4/cgs24p_coal_power_x220.jpg);"></div>
+                                <p>СОР26: Дэлхийн 40 гаруй улс эрчим хүч</p>
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="hiders">
+                        <h3>ХАЛУУН СЭДЭВ</h3>
+                        <div class="mgl">
+                        <div>
+                            <p>ТЕХНОЛОГИЙН ЕРТӨНЦ</p>
+                        </div>
+                    </div>
+                        <div></div>
+                        <div class="hidesss">
+                            <div class="shadow">
+                                <div class="imglink" style="background-image: url(https://content.ikon.mn//news/2021/11/5/cavvdv_dart_spacecraft_x220.jpg);"></div>
+                                <p>NASA дэлхийг астероидын</p>
+                            </div>
+                            <div class="shadow">
+                                <div class="imglink" style="background-image: url(https://content.ikon.mn//news/2021/11/5/r751em_putin-lukashenko-krym_x220.jpg);"></div>
+                                <p>Путин, Лукашенко нар Орос-Беларусийн</p>
+                            </div>
+                            <div class="shadow">
+                                <div class="imglink" style="background-image: url(https://content.ikon.mn//news/2021/6/23/nycl6i_MPA-PHOTO-2021-4-7846_x220.jpg);"></div>
+                                <p>Дархлаажуулалтын цэгүүд 20:00 цаг хүртэл</p>
+                            </div>
+                            <div class="shadow">
+                                <div class="imglink" style="background-image: url(https://content.ikon.mn//news/2021/11/4/cgs24p_coal_power_x220.jpg);"></div>
+                                <p>СОР26: Дэлхийн 40 гаруй улс эрчим хүч</p>
+                            </div>
+                        </div>
+                        <div class="iknavigation">
+                            <span>2 өдөр 8 цагийн өмнө</span>
+                            <div class="pdir1"></div>
+                            <div class="pdir"></div>
+                            <div class="pdir"></div>
+                            <div class="pdir"></div>
+                            <div class="pdir"></div>
+                            <div class="pdir"></div>
+                            <div class="pdir"></div>
+                            <div class="pdir"></div>
+                            <div class="pdir"></div>
+                            <span>4 сарын өмнө</span>
+                        </div>
+                    </div>
+
+                    <div class="hiders">
+                        <h3>ХАЛУУН СЭДЭВ</h3>
+                        <div class="mgl">
+                        <div>
+                            <p>ТЕХНОЛОГИЙН ЕРТӨНЦ</p>
+                        </div>
+                    </div>
+                        <div></div>
+                        <div class="hidesss">
+                            <div class="shadow">
+                                <div class="imglink" style="background-image: url(https://content.ikon.mn//news/2021/11/5/cavvdv_dart_spacecraft_x220.jpg);"></div>
+                                <p>NASA дэлхийг астероидын</p>
+                            </div>
+                            <div class="shadow">
+                                <div class="imglink" style="background-image: url(https://content.ikon.mn//news/2021/11/5/r751em_putin-lukashenko-krym_x220.jpg);"></div>
+                                <p>Путин, Лукашенко нар Орос-Беларусийн</p>
+                            </div>
+                            <div class="shadow">
+                                <div class="imglink" style="background-image: url(https://content.ikon.mn//news/2021/6/23/nycl6i_MPA-PHOTO-2021-4-7846_x220.jpg);"></div>
+                                <p>Дархлаажуулалтын цэгүүд 20:00 цаг хүртэл</p>
+                            </div>
+                            <div class="shadow">
+                                <div class="imglink" style="background-image: url(https://content.ikon.mn//news/2021/11/4/cgs24p_coal_power_x220.jpg);"></div>
+                                <p>СОР26: Дэлхийн 40 гаруй улс эрчим хүч</p>
+                            </div>
+                        </div>
+                        <div class="iknavigation">
+                            <span>2 өдөр 8 цагийн өмнө</span>
+                            <div class="pdir1"></div>
+                            <div class="pdir"></div>
+                            <div class="pdir"></div>
+                            <div class="pdir"></div>
+                            <div class="pdir"></div>
+                            <div class="pdir"></div>
+                            <div class="pdir"></div>
+                            <div class="pdir"></div>
+                            <div class="pdir"></div>
+                            <span>4 сарын өмнө</span>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer"></footer>
+</body>
+</html>
